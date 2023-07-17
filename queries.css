@@ -1,0 +1,69 @@
+body{
+    background-image:url('/Assets/Cover2.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand
+{
+    color: white;
+}
+.navbar-brand:hover
+{
+    color: white;
+}
+
+#navbarSupportedContent li a
+{
+    color: white;
+}
+
+#navbarSupportedContent li a:hover
+{
+    color: rgba(115, 223, 115, 0.75)
+}
+.dropdown-menu
+{
+    background-color: black;
+}
+.dropdown-item:hover
+{
+    background-color: grey;
+}
+
+
+/* form css */
+.put-query
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.form
+{
+    margin: auto;
+    width: 500px;
+    border: 3px solid green;
+    padding: 10px;
+    color: white;
+}
+
+.submit-button
+{
+    display: flex;
+    justify-content: center;
+}
+
+#submit-button{
+    border-color: chartreuse;
+    background-color: black;
+}
+#submit-button:hover
+{
+    background-color: black;
+    color: chartreuse;
+    border-color: chartreuse;
+}

@@ -1,0 +1,97 @@
+
+body{
+    background-image:url('/Assets/Cover.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand
+{
+    color: white;
+}
+.navbar-brand:hover
+{
+    color: white;
+}
+
+#navbarSupportedContent li a
+{
+    color: white;
+}
+
+#navbarSupportedContent li a:hover
+{
+    color: rgba(115, 223, 115, 0.75)
+}
+.dropdown-menu
+{
+    background-color: black;
+}
+.dropdown-item:hover
+{
+    background-color: grey;
+}
+/* Header CSS */
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.reveal-text
+{
+    display: flex;
+    justify-content: center;
+}
+h1 p {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 50px;
+  color: white;
+  margin-top: 100px;
+}
+
+/* Animation */
+h1 p {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 800px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+
+.header-content
+{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.portfolio-button
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio-button{
+    border-color: chartreuse;
+    background-color: black;
+}
+#portfolio-button:hover
+{
+    background-color: black;
+    color: chartreuse;
+    border-color: chartreuse;
+}
